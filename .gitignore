@@ -1,0 +1,41 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos temporales y caché
+.cache/
+.tmp/
+*.tmp
+
+# Configuración de entorno
+.env
+.env.*
+
+# Docker
+docker-compose.override.yml
+*.pid
+*.sock
+
+# Volúmenes y datos generados por contenedores
+/data/
+/db_data/
+/vendor/
+node_modules/
+db
+
+# Archivos de editor
+.idea/
+.vscode/
+*.swp
+
+# Backups
+*.bak
+*.old
+
+# Archivos de sistema Linux
+*~
+
+*.php
